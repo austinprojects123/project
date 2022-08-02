@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <!--Calculation results for metric-->
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="168dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="168dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="139dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="193dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="109dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="61dp"
+        android:gravity="center"
+        android:text="BMI Calculation Results"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="63dp"
+        android:gravity="center"
+        android:text="Your Weight (kg) Input Was:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="63dp"
+        android:gravity="center"
+        android:text="Your Height (m) Input Was:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="63dp"
+        android:gravity="center"
+        android:text="Your Calculated BMI Is:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center"
+        android:text="Your BMI Category Is:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="292dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="To start a new calculation, press the back button on your device."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+</androidx.constraintlayout.widget.ConstraintLayout>
